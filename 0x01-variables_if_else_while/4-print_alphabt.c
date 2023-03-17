@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-	char l;
+	char l='a';
 
-	while ((l != 'q' && l != 'e'); l++)
+	while ((l != 'q' && l != 'e')
 	{
 		putchar(l);
+		l++;
 	}
 	putchar('\n');
 	return (0);
