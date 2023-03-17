@@ -1,5 +1,11 @@
 #include <stdio.h>
+#include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main()
 {
 	char letter;
@@ -8,6 +14,7 @@ int main()
 	{
 		putchar(letter);
 	}
-	return 0;
+	putchar("\n");
+	return (0=;
 }
 
