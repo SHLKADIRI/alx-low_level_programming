@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * _abs - function that checks if a charcater 
- * Return: 1 is n is positive
- * and -1 if it's negative
+ * _abs - function that checks if a charcater
+ * @a: a parameter to be checked 
+ * Return: a if a is positive
+ * and -a if a is negative
  */
-int _abs(int)
+int _abs(int a)
 {
-	int n;
-
-	if (n > 0)
+	if (a > 0)
 	{
 		return (a);
 	}
-	else if (n < 0)
+	else if (a < 0)
 	{
 		return (-a);
 	}
