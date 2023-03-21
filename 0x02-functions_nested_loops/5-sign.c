@@ -7,7 +7,7 @@
  * and 0 if it(s equal to zero
  * and -1 if it's negative
  */
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
