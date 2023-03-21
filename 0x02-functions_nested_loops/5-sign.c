@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_sign - function that checks if a charcater is positive, zero or negative
+ * print_sign - function that checks if a charcater is posi, zero or nega
  * @n: parameter
  * Return: 1 is n is positive
  * and 0 if it(s equal to zero
@@ -11,26 +11,17 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		return (1);
 		_putchar('+');
-		_putchar(',');
-		_putchar(' ');
-		_putchar('\n');
+		return (1);
 	}
 	else if (n == 0)
 	{
-		return (0);
 		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		_putchar('\n');
+		return (0);
         }
 	else
 	{
-		return (-1);
 		_putchar('-');
-		_putchar(',');
-		_putchar(' ');
-		_putchar('\n');
+		return (-1);
 	}
 }
