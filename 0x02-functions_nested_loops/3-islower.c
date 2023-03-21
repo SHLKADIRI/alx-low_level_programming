@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - function that prints alphabet from a to z
- * Return: Always 0 (Success)
+ * _islower - function that checks if a charcater is a lowercase or not
+ * Return: 1 is c is lowercase and 0 if it's not
  */
 int _islower(int c)
 {
