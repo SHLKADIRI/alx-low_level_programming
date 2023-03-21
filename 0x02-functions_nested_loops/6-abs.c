@@ -1,20 +1,17 @@
 #include "main.h"
 
+
 /**
- * _abs - function that checks if a charcater
- * @a: a parameter to be checked 
- * Return: a if a is positive
- * and -a if a is negative
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
-int _abs(int a)
+int _abs(int n)
 {
-	if (a >= 0)
+	if (n >= 0)
 	{
-		return (a);
+		return (n);
 	}
-	else if (a < 0)
-	{
-		a = -(a);
-		return (a);
-	}
+	return (-n);
 }
+
