@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - function that prints alphabet from a to z
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - function that prints 10 times alphabet from a to z
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
@@ -15,6 +15,6 @@ void print_alphabet(void)
 		{
 			_putchar(i);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
