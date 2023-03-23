@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_numbers - function that prints alphabet from a to z
- * Return: Always 0 (Success)
+ * print_numbers - function that prints nu,bers from 0 to 9
+ * Return: void
  */
 void print_numbers(void)
 {
@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		_putchar(i + '0');
+		_putchar(i);
 	}
 	_putchar('\n');
 }
