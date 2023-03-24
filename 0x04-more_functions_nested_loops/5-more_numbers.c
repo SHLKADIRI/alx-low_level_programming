@@ -7,13 +7,17 @@
 void more_numbers(void)
 {
 	int n;
-	char i;
+	int i;
 
 	for (n = 1; n <= 10; n++)
 	{
-		for (i = '0'; i <= '14'; i++)
+		for (i = 0; i <= 14; i++)
 		{
-			_putchar(i);
+			if (i >= 10)
+			{
+				_putchar(i / 10 + 'O');
+			}
+			_putchar(i % 10 + '0');
 		}
 		_putchar('\n');
 	}
