@@ -2,14 +2,13 @@
 
 /**
  * print_line - function that draws a straight line
- * @n: parameter of how many time to print _
- * Return: void
+ * @n: number of time to print _
  */
 void print_line(int n)
 {
 	int i;
 
-	if (n < 0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
