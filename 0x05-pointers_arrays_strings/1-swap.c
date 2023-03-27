@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - function that pointer to an int
+ * swap_int - function that pointer to an int
  * @a: first input
  * @b: second input
  */
