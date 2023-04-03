@@ -8,7 +8,7 @@
  *
  * Return: changed array with the new value
  */
-char *_memset(char *s, char b, unsignedd int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	int i = 0;
 
