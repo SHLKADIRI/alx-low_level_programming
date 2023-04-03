@@ -4,7 +4,7 @@
  * _strchr - function to loca
  * @s: input
  * @c: sec input
- * reurn: always 0
+ * Return: Always 0
  */
 char *_strchr(char *s, char c)
 {
