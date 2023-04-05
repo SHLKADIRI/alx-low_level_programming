@@ -1,5 +1,7 @@
 #include "main.h"
 
+int a_s_r(int n, int i);
+
 /**
  * _sqrt_recursion - fucntion to calculate the root square of a number
  * @n: input
