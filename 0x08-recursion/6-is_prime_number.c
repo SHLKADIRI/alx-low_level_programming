@@ -1,6 +1,6 @@
 #include "main.h"
 
-int a_p(int n, int i);
+int a_p(int m, int i);
 
 /**
  * is_prime_number - function to check if a integer is a pm
