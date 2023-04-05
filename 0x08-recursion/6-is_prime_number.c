@@ -9,21 +9,22 @@ int a_p(int n, int i);
  */
 int is_prime_number(int n)
 {
-	if (n <= 0)
+	if (n <= 1)
 		return (0);
-	return (a_p(n, n - 1));
+	return (a_p(n, 2));
 }
 /**
  * a_p - calculate if a number is prime or not
- * @n: number to check
+ * @m: number to check
  * @i: iterrator
  * Return: 1 if n is prime, 0 if not
  */
-int a_p(int n, int i)
+int a_p(int m, int i)
 {
-	if (i == 1)
-		return (1);
-	if (n % i == 0 && i > 0)
-		return (0);
-	return (a_p(n, i - 1));
+	if (i < m)
+		if (m % i == 0)
+			return (0);
+		return (a_p(m, i + 1));
+
+	return (1);
 }
