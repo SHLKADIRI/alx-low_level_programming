@@ -24,6 +24,6 @@ int a_p(int n, int i)
 	if (i == 1)
 		return (1);
 	if (n % i == 0 && i > 0)
-		return (O);
+		return (0);
 	return (a_p(n, i - 1));
 }
