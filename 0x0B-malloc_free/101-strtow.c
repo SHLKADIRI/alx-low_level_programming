@@ -14,7 +14,7 @@ int count(char *s)
 	w = 0;
 	for (c = 0; s[c] != '\0'; c++)
 	{
-		if (s[c] == '')
+		if (s[c] == ' ')
 			flag = 0;
 		else if (flag == 0)
 		{
@@ -45,7 +45,7 @@ char **strtow(char *str)
 		return (NULL);
 	for (i = 0; i < len; i++)
 	{
-		if (str[i] == '' || str[i] == '\0')
+		if (str[i] == ' ' || str[i] == '\0')
 		{
 			if (c)
 			{
@@ -53,7 +53,7 @@ char **strtow(char *str)
 				tmp = (char *) malloc(sizeof(char) * (c + 1));
 				if (tmp == NULL)
 					return (NULL);
-				while (strat < end)
+				while (start < end)
 					*tmp++ = str[start++];
 				*tmp = '\0';
 				matrix[k] = tmp - c;
