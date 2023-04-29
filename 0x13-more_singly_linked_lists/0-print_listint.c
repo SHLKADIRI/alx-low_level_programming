@@ -11,7 +11,7 @@ size_t print_listint(const listint_t *S)
 
 	while (S)
 	{
-		printf("%d\n", S->n);
+		printf("%d\n", S->b);
 		m++;
 		S = S->x;
 	}
