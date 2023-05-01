@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint – ajot chi haja f chi haja
+ * add_nodeint - add a new node
  * @head: pointer l awl node
  * @n: data li tzid f nex node
  * Return: pointer to the new node, or NULL if it fails
