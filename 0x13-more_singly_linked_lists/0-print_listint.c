@@ -1,19 +1,20 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all ele of ll
- * @S: katlinke
+ * print_listint - prints elel of ls
+ * @h: linked list
  * Return: number of nodes
  */
-size_t print_listint(const listint_t *S)
+size_t print_listint(const listint_t *h)
 {
 	size_t m = 0;
 
-	while (S)
+	while (h)
 	{
-		printf("%d\n", S->b);
+		printf("%d\n", h->n);
 		m++;
-		S = S->x;
+		h = h->next;
 	}
+
 	return (m);
 }
